@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智障探针</title>
+    <link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin>
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <div class="header-intro">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <h2>智障探针</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+                    aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container table-responsive">
+            <table class="table text-nowrap" id="servers">
+                <thead>
+                    <tr>
+                        <th scope="col">状态</th>
+                        <th scope="col">名称</th>
+                        <th scope="col">在线时间</th>
+                        <th scope="col">实时流量↑|↓</th>
+                        <th scope="col">总流量↑|↓</th>
+                        <th scope="col">CPU</th>
+                        <th scope="col">内存</th>
+                        <th scope="col">磁盘</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.2.3/js/bootstrap.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</body>
+
+</html>
